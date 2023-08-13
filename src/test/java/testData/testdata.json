@@ -1,0 +1,13 @@
+{
+  "eBayUrl": "https://www.ebay.com/",
+  "searchWord": "mazda mx-5",
+  "webElements": [
+    {
+      "searchBar": "//input[@class=\"gh-tb ui-autocomplete-input\"]",
+      "searchBtn": "//input[@type=\"submit\"]",
+      "manualTransmissionBtn": "(//a[@class=\"srp-carousel-list__item-link\"]//div[text()=\"Manual\"])[1]",
+      "searchResults": "//ul[@class=\"srp-results srp-list clearfix\"]//span[@role=\"heading\"]",
+      "helpMessageCloseBtn": "srp-save-search__tooltip-close"
+    }
+  ]
+}
